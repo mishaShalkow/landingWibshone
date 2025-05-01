@@ -163,6 +163,11 @@ body {
   align-items: center;
 }
 
+@media (max-width: 500.98px) {
+  .header__container {
+    display: block;
+  }
+}
 .header__logo {
   position: relative;
   z-index: 5;
@@ -222,6 +227,14 @@ body {
 .menu_buttons {
   display: flex;
 }
+
+@media (max-width: 500.98px) {
+  .menu_buttons {
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+}
+
 .menu__btn {
   padding: 11px 20px;
   border-radius: 14px;
@@ -356,6 +369,12 @@ body {
   }
 }
 
+@media (max-width: 449.98px) {
+  .block1__title {
+    margin-top: 47px;
+  }
+}
+
 .block1__h1 {
   font-weight: 400;
   font-size: 64px;
@@ -363,6 +382,14 @@ body {
   color: #1b1a1a;
   margin-top: 20px;
 }
+
+@media (max-width: 449.98px) {
+  .block1__h1 {
+    font-size: 40px;
+    line-height: 140%;
+  }
+}
+
 .block1__subtitle {
   font-weight: 400;
   font-size: 16px;
@@ -416,6 +443,14 @@ body {
   display: flex;
   max-width: 760px;
 }
+
+@media (max-width: 449.98px) {
+  .ourFilm__body {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .ourFilm__title {
   font-weight: 400;
   font-size: 32px;
@@ -425,6 +460,12 @@ body {
 .ourFilm__subcription {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 449.98px) {
+  .ourFilm__subcription {
+    margin-top: 30px;
+  }
 }
 
 .ourFilm__blockText {
@@ -445,6 +486,14 @@ body {
   }
 }
 
+@media (max-width: 449.98px) {
+  .ourFilm__blockText {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 .ourFilm__subcription-text {
   font-weight: 400;
   font-size: 16px;
@@ -461,6 +510,14 @@ body {
   margin-left: 132px;
   margin-top: 18px;
 }
+
+@media (max-width: 449.98px) {
+  .ourFilm__subcription-avtor {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
 .ourFilm__subcription__logo {
 }
 
@@ -498,10 +555,17 @@ body {
 .reedingHouse__container {
 }
 
+@media (max-width: 1400.98px) {
+  .reedingHouse__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .reedingHouse__body {
   width: 300px;
   padding-top: 266px;
-  /* margin-top: 266px; */
   margin-left: 1008px;
 }
 
@@ -513,13 +577,10 @@ body {
 
 @media (max-width: 834.98px) {
   .reedingHouse__body {
-    margin-left: 208px;
-  }
-}
-
-@media (max-width: 504.98px) {
-  .reedingHouse__body {
-    margin-left: 58px;
+    margin-left: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -594,6 +655,7 @@ body {
   line-height: 108%;
   color: #1b1a1a;
   margin-top: 13px;
+  text-align: center;
 }
 .ourProccess__block2 {
 }
@@ -628,6 +690,22 @@ body {
 .item_ourProcess:not(:last-child) {
   margin-right: 16px;
 }
+
+@media (max-width: 1400.98px) {
+  .item_ourProcess:not(:last-child) {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1400.98px) {
+  .item_ourProcess {
+    margin: 0px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .item__img_ourProcess {
 }
 .item__titile_ourProcess {
@@ -661,6 +739,15 @@ body {
 .marble__container {
 }
 
+@media (max-width: 1400.98px) {
+  .marble__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 .marble__body {
   width: 300px;
   padding-top: 266px;
@@ -670,11 +757,11 @@ body {
 
 @media (max-width: 1400.98px) {
   .marble__body {
-    margin-left: 508px;
+    margin-left: 0px;
   }
 }
 
-@media (max-width: 834.98px) {
+/* @media (max-width: 834.98px) {
   .marble__body {
     margin-left: 208px;
   }
@@ -684,7 +771,7 @@ body {
   .marble__body {
     margin-left: 58px;
   }
-}
+} */
 
 .marble__title {
   font-weight: 400;
@@ -756,6 +843,17 @@ body {
   flex-direction: column;
   margin-top: 65px;
 }
+
+@media (max-width: 470.98px) {
+  .happyCustomers__block1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 .happyCustomers__title {
   font-weight: 400;
   font-size: 14px;
@@ -768,6 +866,13 @@ body {
   line-height: 118%;
   color: #ffffff;
 }
+
+@media (max-width: 470.98px) {
+  .happyCustomers__subtitle {
+    margin-top: 20px;
+  }
+}
+
 .happyCustomers__decription {
   font-weight: 400;
   font-size: 15px;
@@ -776,6 +881,15 @@ body {
   margin-top: 14px;
   width: 451px;
 }
+
+@media (max-width: 470.98px) {
+  .happyCustomers__decription {
+    font-size: 15px;
+    line-height: 200%;
+    width: auto;
+  }
+}
+
 .happyCustomers__block2 {
   display: flex;
   width: 432px;
@@ -806,6 +920,14 @@ body {
   }
 }
 
+@media (max-width: 470.98px) {
+  .happyCustomers__block2 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .happyCustomers__img1 {
 }
 
@@ -821,6 +943,12 @@ body {
   }
 }
 
+@media (max-width: 470.98px) {
+  .happyCustomers__block2-items {
+    margin: 0px 0px 40px 0px;
+  }
+}
+
 .happyCustomers__block2-items2 {
   margin-left: 96px;
 }
@@ -828,6 +956,12 @@ body {
 @media (max-width: 1066.98px) {
   .happyCustomers__block2-items2 {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 470.98px) {
+  .happyCustomers__block2-items2 {
+    margin: 0px 0px 40px 0px;
   }
 }
 
@@ -894,6 +1028,17 @@ body {
   background-repeat: no-repeat; /* Отключение повторения изображения */
 }
 
+.swirling__container {
+}
+
+@media (max-width: 1400.98px) {
+  .swirling__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .swirling__body {
   width: 300px;
   padding-top: 266px;
@@ -902,19 +1047,11 @@ body {
 
 @media (max-width: 1400.98px) {
   .swirling__body {
-    margin-left: 508px;
-  }
-}
-
-@media (max-width: 834.98px) {
-  .swirling__body {
-    margin-left: 208px;
-  }
-}
-
-@media (max-width: 504.98px) {
-  .swirling__body {
-    margin-left: 58px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -927,12 +1064,6 @@ body {
 }
 
 @media (max-width: 834.98px) {
-  .swirling__title {
-    color: #070707;
-  }
-}
-
-@media (max-width: 504.98px) {
   .swirling__title {
     color: #070707;
   }

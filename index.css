@@ -1026,6 +1026,7 @@ body {
   background-size: cover; /* Масштабирование изображения */
   background-position: center; /* Центрирование изображения */
   background-repeat: no-repeat; /* Отключение повторения изображения */
+  /*   filter: brightness(0.7); */
 }
 
 .swirling__container {
@@ -1103,6 +1104,18 @@ body {
 .featured__block1 {
   margin-top: 120px;
 }
+
+@media (max-width: 1200.98px) {
+  .featured__block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+}
+
 .featured__block1-title {
   font-weight: 400;
   font-size: 39px;
@@ -1117,6 +1130,13 @@ body {
   margin-top: 15px;
   width: 581px;
 }
+
+@media (max-width: 653.98px) {
+  .featured__block1-subtitle {
+    width: auto;
+  }
+}
+
 .featured__block2 {
   margin-top: 40px;
 }
@@ -1229,6 +1249,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: 70px;
   }
 }
 
@@ -1238,7 +1260,7 @@ body {
 
 @media (max-width: 1284.98px) {
   .meet__body_block1 {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
 }
 
